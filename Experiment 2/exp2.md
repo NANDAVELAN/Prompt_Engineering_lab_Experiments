@@ -129,7 +129,7 @@ We designed an experiment to evaluate the effectiveness of prompting strategies.
 ---
 
 ## Output
-[Download the output PDF](https://github.com/NANDAVELAN/EXPERIMENT-2-PROMPT-ENGINEERING/blob/main/Comparative%20Analysis%20of%20Different%20Types%20of%20Prompting%20Patterns.pdf)
+[Download the output PDF](https://github.com/NANDAVELAN/Prompt_Engineering_lab_Experiments/blob/main/Experiment%202/Comparative%20Analysis%20of%20Different%20Types%20of%20Prompting%20Patterns.pdf)
 
 ---
 ## Conclusion
