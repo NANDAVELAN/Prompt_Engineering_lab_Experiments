@@ -50,7 +50,7 @@ Here are the steps of the process:
 *   **Conclusion and Future Outlook**
 
 ## OUTPUT FILE:
-[Download the output PDF](https://github.com/NANDAVELAN/EXP-1-PROMPT-ENGINEERING-/blob/main/Generative%20AI_%20Concepts%20and%20Impact_.pdf)
+[Download the output PDF](https://github.com/NANDAVELAN/Prompt_Engineering_lab_Experiments/blob/main/Experiment1/Generative%20AI_%20Concepts%20and%20Impact_.pdf)
 
 
 
