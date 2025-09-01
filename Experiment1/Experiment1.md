@@ -5,6 +5,7 @@ Comprehensive Report on the Fundamentals of Generative AI and Large Language Mod
 
 ### Experiment: 
 Develop a comprehensive report for the following exercises:
+
 Explain the foundational concepts of Generative AI.
 Focusing on Generative AI architectures. (like transformers).
 Generative AI applications.
