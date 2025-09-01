@@ -11,6 +11,15 @@ Focusing on Generative AI architectures. (like transformers).
 Generative AI applications.
 Generative AI impact of scaling in LLMs.
 
+## Prompt
+
+Write a detailed academic report on Generative AI covering:
+(1) foundational concepts and how it differs from traditional AI
+(2) key architectures with focus on transformers and comparison with GANs/VAEs/Diffusion models
+(3) real-world applications across text, images, code, and science
+(4) impact of scaling in large language models including scaling laws, emergent abilities, benefits and limitations
+(5) a conclusion on future opportunities and challenges. Use clear sections, examples, and technical depth with accessible explanations.
+
 ## Algorithm:
 Here are the steps of the process:
 
