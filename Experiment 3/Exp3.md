@@ -30,7 +30,7 @@ Write a comprehensive evaluation report on the topic ‘Evaluation of 2024 Promp
 ## Output
 ### 2024 Prompting Tools Evaluation: A Comparative Analysis for Technical Article Summarization
 
-# **Test Case 1 – Technical Article Summarization**
+## **Test Case 1 – Technical Article Summarization**
 
 **Prompt:**
 *"Summarize the following article on quantum computing algorithms, highlighting the key principles, a few major algorithms discussed, and their potential applications. The summary should be concise but retain essential technical details."*
@@ -44,7 +44,7 @@ Write a comprehensive evaluation report on the topic ‘Evaluation of 2024 Promp
 * **Llama 3:** Decent overview, but risks minor inaccuracies and less polished writing.
 
 
-# **Test Case 2 – Answering a Technical Question**
+## **Test Case 2 – Answering a Technical Question**
 
 **Prompt:**
 *"Explain the difference between supervised, unsupervised, and reinforcement learning with simple real-world examples."*
@@ -59,7 +59,7 @@ Write a comprehensive evaluation report on the topic ‘Evaluation of 2024 Promp
 
 
 
-# **Test Case 3 – Creative Task**
+## **Test Case 3 – Creative Task**
 
 **Prompt:**
 *"Write a short motivational paragraph for students preparing for exams, using an encouraging and positive tone."*
