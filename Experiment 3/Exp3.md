@@ -16,6 +16,7 @@ Evaluation of 2024 Prompting Tools Across Diverse AI Platforms: ChatGPT, Claude,
 
 
 ## Prompt
+Write a comprehensive evaluation report on the topic ‘Evaluation of 2024 Prompting Tools Across Diverse AI Platforms: ChatGPT, Claude, Bard, Cohere Command, and Meta.’ The report should:
 1. Select a **specific use case** (e.g., summarizing a long technical article, answering domain-specific technical questions, or generating creative text).
 2. Compare the **performance** of each platform based on accuracy, depth of response, creativity, and adaptability.
 3. Assess the **user experience** (ease of use, interface, flexibility in prompting, latency, limitations).
