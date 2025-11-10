@@ -96,4 +96,3 @@ It was observed that **the realism, artistic style, and accuracy of generated vi
 
 ---
 
-Would you like me to **add one more sample (Prompt 4)** — like an **avatar-based Synthesia video** (e.g., “A woman in a formal outfit delivering a presentation in a modern studio”) — to make it look even more complete for your record?
