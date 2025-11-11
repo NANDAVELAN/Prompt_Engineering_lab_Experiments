@@ -53,6 +53,9 @@ To perform the exploration of prompting techniques for AI-based video generation
 
 > *“A cinematic shot of a car speeding through a neon-lit city at night, with reflections on the wet street and a high-speed chase scene.”*
 
+https://github.com/user-attachments/assets/5a33327c-4a43-4bbd-89e8-e4029386b851
+
+
 **Output Description:**
 The AI-generated video displayed a **dynamic nighttime cityscape** illuminated by **bright neon signs and glowing reflections** on wet roads. The camera followed a **car moving rapidly through traffic**, creating a **high-speed cinematic effect** with **motion blur, light trails, and realistic reflections** on buildings and streets. The output conveyed an intense, movie-like atmosphere consistent with the prompt.
 
@@ -64,6 +67,12 @@ The AI-generated video displayed a **dynamic nighttime cityscape** illuminated b
 
 > *“A time-lapse video of the sun setting over the ocean, with the camera slowly zooming out from the beach, capturing the waves and changing colors in the sky.”*
 
+https://github.com/user-attachments/assets/b0d33ce2-8b13-4366-850f-5c111c3c9dde
+
+
+
+
+
 **Output Description:**
 The AI generated a **smooth time-lapse sequence** showing the **sun lowering on the horizon**, with **warm orange and pink hues** spreading across the sky. The **camera zoomed out slowly**, capturing the **waves gently hitting the shore** and creating a serene, cinematic visual.
 
@@ -74,6 +83,10 @@ The AI generated a **smooth time-lapse sequence** showing the **sun lowering on 
 **Input Prompt:**
 
 > *“An animated scene of a futuristic city at night, with glowing neon lights, flying cars, and a bustling crowd of people.”*
+
+
+https://github.com/user-attachments/assets/2b42a395-6157-4ff6-bea4-40051e92bb52
+
 
 **Output Description:**
 The generated video showcased a **vibrant animated city** filled with **futuristic skyscrapers, floating vehicles, and glowing signage**. The **camera panned across busy streets**, showing **crowds of people and neon-lit billboards**, giving a **cyberpunk-style visual experience**.
