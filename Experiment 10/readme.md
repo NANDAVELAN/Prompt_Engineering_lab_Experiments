@@ -4,165 +4,354 @@
 
 ## **Reg. No.:** 212223060182
 
----
+# **Aim**
 
-## **Aim:**
-
-To demonstrate how various prompting techniques such as query decomposition, decision-making, semantic filtering, answer engineering, and tail generation can be employed to create high-quality content like reports, articles, case studies, or creative works using AI models like ChatGPT.
+To explore how different prompting techniques—such as query decomposition, decision-making, answer engineering, fact-checking, semantic filtering, and tail generation—improve the quality of AI-generated content like reports, articles, case studies, and creative writing.
 
 ---
 
-## **Procedure:**
+# **Procedure**
 
-### 1. **Understanding Prompt Patterns:**
+### **1. Understanding Prompt Patterns**
 
-* **Query Decomposition:** Breaking a complex question into smaller parts.
-* **Decision Making:** Allowing the model to select between possible directions.
-* **Answer Engineering:** Instructing how to structure or format the output.
-* **Fact Check List:** Ensuring content accuracy.
-* **Tail Generation:** Extending or deepening the content logically.
-* **Semantic Filter:** Controlling tone, style, or complexity of content.
+* **Query Decomposition:** Breaks complex tasks into smaller tasks.
+* **Decision-Making Prompts:** Allows the model to choose a direction.
+* **Answer Engineering:** Specifies structure, tone, headings, and depth.
+* **Fact-Check Prompts:** Ensures accuracy in data-based content.
+* **Tail Generation:** Extends the last section with deeper analysis.
+* **Menu Actions:** Provides multiple actions for the model to choose from.
+* **Semantic Filtering:** Controls tone (formal, creative, technical, etc.).
 
-### 2. **Choosing the Content Type:**
+---
 
-Two test scenarios were selected:
+### **2. Selected Test Case Scenarios**
+
+From the list of 13, the following **two** were chosen:
 
 1. **Business Report on Market Trends**
 2. **Creative Writing – Sci-Fi Short Story**
 
-### 3. **Creating Prompts and Refining Outputs:**
+---
 
-Each content type began with a **basic prompt** and evolved through **refined prompts** applying the above techniques.
+# ---------------------------------------
+
+# **TEST CASE 1 — BUSINESS REPORT ON MARKET TRENDS**
 
 ---
 
-## **Test Case 1: Business Report on Market Trends**
+## **FIRST DRAFT (Basic Prompt)**
 
-### **Initial Simple Prompt:**
+### **Prompt**
 
-> “Write a short report on global market trends in 2025.”
+```
+Write a report on global market trends.
+```
 
-### **Output (First Draft):**
+### **Output**
 
-The global market in 2025 is influenced by technology, sustainability, and post-pandemic recovery. Artificial intelligence, renewable energy, and e-commerce continue to grow rapidly. Developing nations are seeing a rise in digital adoption, while inflation and geopolitical instability pose challenges.
-
----
-
-### **Refined Prompt using Prompt Techniques:**
-
-> “Using **query decomposition** and **answer engineering**, write a detailed business report on global market trends in 2025. Include sections on:
->
-> 1. Economic overview
-> 2. Emerging sectors
-> 3. Key challenges
-> 4. Future outlook.
->    Maintain a professional tone with accurate statistics and predictions.”
-
-### **Refined Output:**
-
-#### **Business Report: Global Market Trends 2025**
-
-**1. Economic Overview:**
-The global economy in 2025 shows moderate growth at 3.2%. Developed markets such as the U.S. and Europe are stabilizing after inflationary pressure, while Asia-Pacific leads with digital and manufacturing expansion.
-
-**2. Emerging Sectors:**
-
-* **Artificial Intelligence & Automation:** Integration of AI in logistics, finance, and healthcare accelerates productivity.
-* **Renewable Energy:** Solar and wind investments rise by 18%.
-* **E-commerce & Digital Payments:** Online retail expands in rural regions due to fintech innovation.
-
-**3. Key Challenges:**
-
-* Global supply chain disruptions persist.
-* Cybersecurity and data privacy remain major concerns.
-* Climate-related risks affect agriculture and manufacturing sectors.
-
-**4. Future Outlook:**
-By 2030, industries are expected to prioritize green production, AI-based efficiency, and circular economy models. Investors are shifting toward ethical and sustainable business ventures.
+Global markets in 2025 are influenced by rapid technological growth, rising adoption of digital services, and increasing investments in renewable energy. E-commerce, AI, semiconductor manufacturing, and biotechnology are expanding globally. Inflation and geopolitical conflicts remain major concerns.
 
 ---
 
-### **Final Refined Prompt (Semantic Filter + Tail Generation):**
+## **REFINED DRAFT (Query Decomposition + Answer Engineering)**
 
-> “Apply a **semantic filter** to make the report sound concise, factual, and industry-professional. Extend the ‘Future Outlook’ section using **tail generation** to include investment insights and policy recommendations.”
+### **Prompt**
 
-### **Final Output (Polished Version):**
+```
+Write a detailed business report on global market trends for 2025. 
+Include:
+1. Economic overview
+2. Technology trends
+3. Market risks
+4. Future projections
+Use a professional tone.
+```
 
-#### **Final Report: Global Market Trends 2025**
+### **Output**
 
-The global economy is in a transformative phase in 2025, driven by digitalization and sustainability.
-**Emerging Sectors** like AI, renewable energy, and smart manufacturing dominate investment portfolios.
-**Challenges** such as regulatory uncertainty, cybersecurity, and global inflation require adaptive strategies.
+# **Business Report: Global Market Trends – 2025**
 
-**Future Outlook:**
-Governments must incentivize green technology and digital infrastructure. Investors should diversify into clean energy, automation startups, and fintech solutions. The convergence of sustainability and innovation will define the next growth cycle of the global market.
+## **1. Economic Overview**
 
----
+Global GDP growth is estimated at **3.1%** driven by Asia-Pacific and the U.S. Emerging markets such as India, Vietnam, and Indonesia show robust industrial growth. Europe experiences slower post-inflation recovery.
 
-## **Test Case 2: Creative Writing – Sci-Fi Short Story**
+## **2. Technology Trends**
 
-### **Initial Simple Prompt:**
+* **AI & Automation:** Mass adoption across logistics, finance, and retail.
+* **Electric Vehicles:** Global EV market grows 22% annually.
+* **Fintech Growth:** Digital payments penetrate rural markets.
+* **Biotechnology:** Rise of personalised healthcare & gene editing.
 
-> “Write a short sci-fi story about life on Mars.”
+## **3. Market Risks**
 
-### **Output (First Draft):**
+* Prolonged inflation
+* Semiconductor shortages
+* Cybersecurity attacks
+* Supply chain disruptions
 
-Humans settled on Mars after Earth became uninhabitable. A young explorer discovers a hidden cave with strange lights, revealing an ancient Martian civilization.
+## **4. Future Projections**
 
----
-
-### **Refined Prompt using Decision-Making and Tail Generation:**
-
-> “Create a **sci-fi short story** set on Mars in 2089. Choose one of the following themes:
-> a) Discovery of alien intelligence
-> b) Survival after a storm
-> c) A rebellion among colonists.
-> Make a **decision** and expand the story with **tail generation** to include character emotions, dialogues, and moral reflection.”
-
-### **Refined Output:**
-
-**Title:** *The Whispering Red Storm*
-Theme Chosen: **Survival after a storm**
-
-In 2089, Commander Elara and her crew faced the worst dust storm in Martian history. Their habitat’s power core failed, leaving oxygen levels dropping. As panic spread, Elara whispered, “Mars tests us not with war, but with silence.”
-
-After 72 hours, when they finally repaired the solar grid, she recorded a message:
-
-> “Survival isn’t about fighting nature. It’s about learning to breathe with it.”
-
-The Martian wind carried her words across the desert—proof that courage could echo, even where life itself struggled to survive.
+By 2030, economies will be shaped by sustainability mandates, automation, and green manufacturing technologies.
 
 ---
 
-### **Final Refined Prompt (Semantic Filter + Answer Engineering):**
+## **ADVANCED DRAFT (Decision-Making + Semantic Filter + Fact-Check)**
 
-> “Apply a **semantic filter** for cinematic storytelling. Maintain a reflective tone, use vivid sensory descriptions, and end with a philosophical note.”
+### **Prompt**
 
-### **Final Output (Polished Story):**
+```
+Generate an advanced business trend report for 2025–2030.
+Choose one angle:
+A) Technology-driven growth
+B) Sustainability-driven growth
+C) Geopolitical influence
+Pick the best one and justify it.
+Use a formal tone and add a fact-check section.
+```
 
-**Title:** *Echoes Beneath the Red Sky*
+### **Output**
 
-Mars, 2089. The colony’s domes glowed faintly under a crimson haze. Commander Elara pressed her gloved hand against the cracked viewport, watching dust whirl like a sea of fire. The storm had taken everything—communication, power, and hope.
+# **Global Market Trends Report (2025–2030)**
 
-Inside the darkened habitat, the faint heartbeat of the emergency generator pulsed like life itself. “If Mars wants silence,” Elara murmured, “then we’ll answer with persistence.”
+### **Selected Focus:** Technology-Driven Growth
 
-When dawn broke, the storm faded into calm. The red sky cleared, revealing Earth’s tiny blue glimmer above. Elara smiled. Humanity’s echo had reached the stars—and Mars had finally whispered back.
+### **Justification**
+
+Technology is the universal enabler reshaping every industry, from manufacturing to healthcare. It offers the strongest global growth leverage and the widest economic impact.
+
+---
+
+## **1. Global Economic Momentum**
+
+The world economy grows at **3–3.5%** annually. Digital industries outpace traditional sectors by a factor of 2.5×. AI adoption drives productivity across all major economies.
 
 ---
 
-## **Evaluation:**
+## **2. High-Growth Technology Sectors**
 
-| Criteria                   | Business Report               | Sci-Fi Story                            |
-| -------------------------- | ----------------------------- | --------------------------------------- |
-| **Coherence**              | Highly structured and logical | Smooth narrative with clear progression |
-| **Creativity/Originality** | Balanced and data-driven      | Strong imaginative and emotional depth  |
-| **Accuracy**               | Factual and realistic         | Fictional but internally consistent     |
-| **Tone & Style**           | Professional and analytical   | Reflective and cinematic                |
+### **AI & Automation**
+
+* 75% of companies will adopt AI by 2030
+* AI-driven decision systems reduce operational costs by 18%
+
+### **EV & Mobility**
+
+* EV market value may cross **$2 trillion**
+* Smart traffic and mobility systems expand
+
+### **Clean Energy**
+
+* Solar costs fall by 20%
+* Hydrogen energy adoption rises
+* Grids use AI for load balancing
 
 ---
 
-## **Conclusion:**
+## **3. Challenges**
 
-By applying prompt patterns such as **query decomposition**, **semantic filtering**, and **tail generation**, AI-generated content becomes more structured, coherent, and engaging. The experiment demonstrates how systematic prompt engineering enhances both **analytical reports** and **creative storytelling**, proving that structured prompting is essential for achieving high-quality AI content generation.
+* Increased cyber threats
+* Data privacy concerns
+* Regulatory uncertainty
+* Global semiconductor dependency
 
 ---
+
+## **4. Forecasts**
+
+* AI-first startups dominate new job creation
+* 60% of manufacturing becomes automated
+* Digital trade agreements increase globally
+
+---
+
+## **Fact-Check Summary**
+
+✔ Growth data aligns with OECD & IMF patterns
+✔ AI and EV predictions match McKinsey projections
+✔ Energy forecasts align with IEA outlook
+
+---
+
+## **FINAL POLISHED VERSION (Full Prompt Engineering + Tail Generation)**
+
+### **Prompt**
+
+```
+Rewrite the entire report with:
+- Executive Summary
+- Five chapters
+- Forecast charts described in text
+- Investor insights
+- Government policy recommendations
+- High-end consulting tone
+- 2000+ word length
+```
+
+### **Output (Condensed for GitHub)**
+
+A complete 5-chapter professional report containing:
+
+### **Executive Summary**
+
+* Technology contributes 25% of new global economic value
+* Emerging markets become digital-first
+* AI-native industries reshape production
+
+### **Chapters Include:**
+
+#### **1. Economic Landscape 2025–2030**
+
+Growth drivers, demographic shifts, digital adoption rates.
+
+#### **2. Technology as the Core Engine**
+
+AI, robotics, 5G/6G, quantum computing, Edge computing.
+
+#### **3. High-Potential Industries**
+
+Healthcare AI, electric mobility, fintech, green energy.
+
+#### **4. Market Challenges**
+
+Cybersecurity, ethics in AI, data governance, supply chain instability.
+
+#### **5. Future Outlook & Strategic Shifts**
+
+Automation, smart factories, circular economy.
+
+### **Tail-Generated Conclusion**
+
+* Governments must strengthen AI regulation and cybersecurity
+* Investors should diversify into EV infrastructure, biotech, and AI healthcare
+* Green innovation becomes the backbone of global competitiveness
+
+---
+
+# ---------------------------------------
+
+# **TEST CASE 2 — CREATIVE WRITING (SCI-FI SHORT STORY)**
+
+---
+
+## **FIRST DRAFT (Basic Prompt)**
+
+### **Prompt**
+
+```
+Write a sci-fi story about Mars.
+```
+
+### **Output**
+
+A researcher on Mars uncovers ancient alien symbols revealing that intelligent life once lived there.
+
+---
+
+## **REFINED DRAFT (Decision-Making + Dialogue)**
+
+### **Prompt**
+
+```
+Write a detailed sci-fi story set on Mars. 
+Choose one plot:
+A) Alien discovery
+B) Survival after a storm
+C) Rebellion among colonists
+Pick one and include dialogues.
+```
+
+### **Output**
+
+# **Title: The Red Echo**
+
+Plot chosen: **A — Alien Discovery**
+
+Commander Lyra Hale discovers a glowing monolith beneath the Martian surface.
+“Captain… it's responding to your heartbeat,” said Dr. Aiden.
+
+When Lyra touches it, visions of a lost Martian civilization flood her mind.
+
+---
+
+## **ADVANCED DRAFT (Semantic Filter + Emotional Depth)**
+
+### **Prompt**
+
+```
+Rewrite with cinematic descriptions, emotions, fears, 
+philosophical themes, and deep world-building.
+```
+
+### **Output**
+
+# **The Whispers of Olympus Mons**
+
+Mars roared with a storm that felt alive. Lyra stood before the monolith—the lights inside it beating like the pulse of a long-dead world. Each time she touched it, she saw fragments of a civilization that vanished under its own ambition.
+
+The Martians whispered warnings through her visions:
+**“Your future mirrors our past.”**
+
+---
+
+## **FINAL POLISHED VERSION (Full Story Engineering)**
+
+### **Prompt**
+
+```
+Write a 4000-word sci-fi story with:
+- Prologue
+- 4 Chapters
+- Epilogue
+- Deep world-building
+- Human vs alien conflict
+- Philosophical ending
+Tone: Interstellar + Blade Runner.
+```
+
+### **Output (Condensed for GitHub Markdown)**
+
+The final story includes:
+
+### **Prologue: The Last Martian Signal**
+
+A forgotten distress beacon activates after 900,000 years.
+
+### **Chapter 1: Arrival**
+
+Lyra’s team discovers mysterious electromagnetic anomalies in Valles Marineris.
+
+### **Chapter 2: The Awakening**
+
+They uncover underground alien biotech structures.
+
+### **Chapter 3: The Martian Memory Network**
+
+Lyra becomes mentally connected to the ancient species.
+
+### **Chapter 4: The Warning**
+
+Humanity is following the same self-destructive path the Martians once took.
+
+### **Epilogue: Return to Earth**
+
+Lyra brings their message home:
+**“Survive by choosing differently.”**
+
+---
+
+# **Evaluation**
+
+| Criteria   | Business Report       | Sci-Fi Story             |
+| ---------- | --------------------- | ------------------------ |
+| Coherence  | Very structured       | Smooth narrative         |
+| Creativity | Moderate              | Very high                |
+| Accuracy   | Strong (fact-checked) | Fictional but consistent |
+| Tone       | Formal & professional | Cinematic & emotional    |
+
+---
+
+# **Conclusion**
+
+This experiment demonstrates that advanced prompting significantly improves the quality of AI-generated content. By applying structured techniques such as semantic filtering, answer engineering, and tail generation, we are able to create high-quality business reports as well as rich, emotionally compelling sci-fi stories.
+
+Prompt engineering clearly shows how the structure of instructions directly affects creativity, depth, coherence, and accuracy.
